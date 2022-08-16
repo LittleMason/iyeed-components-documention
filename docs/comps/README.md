@@ -4,8 +4,12 @@
 
 推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
 
+```shell
+npm i iyeed-ui -S
 ```
-npm i iyeed -S
+<font color="red">8/16由于版本管理删除冗余版本，需要8/17号才能恢复上述版本下载，此前可使用如下版本：</font>
+```shell
+npm i iyeed-ui-beta -S
 ```
 
 ## CDN

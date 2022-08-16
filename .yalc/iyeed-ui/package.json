@@ -1,6 +1,6 @@
 {
   "name": "iyeed-ui",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "iyeed company front-end components base of Vue.js",
   "entry": "packages/index.js",
   "main": "lib/index.js",
@@ -40,5 +40,5 @@
   "bugs": {
     "url": "https://github.com/haimalairen/iyeed-components/issues"
   },
-  "yalcSig": "4a0e7dbbd82d12817337751267316125"
+  "yalcSig": "1102c9259e57e49285c5eefb3fe8e10d"
 }

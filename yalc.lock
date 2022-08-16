@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "iyeed-ui": {
-      "signature": "4a0e7dbbd82d12817337751267316125",
+      "signature": "1102c9259e57e49285c5eefb3fe8e10d",
       "file": true,
       "replaced": "^1.0.3"
     }

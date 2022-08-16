@@ -8,12 +8,12 @@ Tab 切换组件
 
 ```html
 <template>
-  <iyeed-tab :tabs="fieldList" :active-name="po">
+  <iyeed-tab :tabs="fieldList" v-model="activeName">
     <div slot="po">
-      PO----XXXXX
+      PO----Content
     </div>
     <div slot="bu">
-      BU----XXXXX
+      BU----Content
     </div>
   </iyeed-tab>
 </template>
@@ -22,6 +22,7 @@ Tab 切换组件
   export default {
     data() {
       return {
+        activeName:'po',
         formData: {
           //表单绑定的数据Model
           po: null,
