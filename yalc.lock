@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "iyeed-ui": {
+      "signature": "4a0e7dbbd82d12817337751267316125",
+      "file": true,
+      "replaced": "^1.0.3"
+    }
+  }
+}

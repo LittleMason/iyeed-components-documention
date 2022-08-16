@@ -9,7 +9,7 @@ npm i iyeed -S
 ```
 
 ## CDN
-目前可以通过 unpkg.com/element-ui 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。
+后续可以通过 xxx/iyeed 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。
 
 ```
 <!-- 引入样式 -->

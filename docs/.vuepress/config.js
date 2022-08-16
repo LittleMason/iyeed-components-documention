@@ -1,3 +1,8 @@
+// const customComponentsPath = resolve(__dirname,'../comps')
+// const files = fs.readdirSync(customComponentsPath);
+// const sidebar = files.map((item)=>{
+//     return `/comps/${item}`
+// })
 module.exports = {
   theme: '',
   title: 'iyeed',
@@ -13,13 +18,21 @@ module.exports = {
       {
         text: '组件',
         link: '/comps/'
+      },
+      {
+        text: 'github',
+        link: 'https://github.com/haimalairen/iyeed-components'
       }
     ],
     sidebar: {
       '/comps/': [
         '/comps/',
         '/comps/start.md',
-        '/comps/select.md'
+        '/comps/transit.md',
+        '/comps/topform.md',
+        '/comps/tab.md',
+        '/comps/draggable.md',
+        '/comps/select.md',
       ]
     }
   },

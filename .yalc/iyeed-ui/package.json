@@ -1,0 +1,44 @@
+{
+  "name": "iyeed-ui",
+  "version": "1.0.3",
+  "description": "iyeed company front-end components base of Vue.js",
+  "entry": "packages/index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.module.js",
+  "scripts": {
+    "build": "yarn clean && rollup -c",
+    "yalc": "npm run build && yalc publish",
+    "test": "jest",
+    "lint": "eslint ./packages --ext .vue,.js,.ts",
+    "lint-fix": "eslint --fix ./packages --ext .vue,.js,.ts",
+    "clean": "rimraf ./lib",
+    "example:dev": "cd example && yarn install && yarn serve",
+    "example:build": "cd example && yarn install && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haimalairen/iyeed-components.git"
+  },
+  "keywords": [
+    "vue-loadmore",
+    "vue-refresh",
+    "vue-srcoll",
+    "loadmore",
+    "refresh",
+    "srcoll"
+  ],
+  "author": "haimalairen",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vuedraggable": "^2.24.3"
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/haimalairen/iyeed-components/issues"
+  },
+  "yalcSig": "4a0e7dbbd82d12817337751267316125"
+}
